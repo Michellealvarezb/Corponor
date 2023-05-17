@@ -1,0 +1,23 @@
+
+//EL SIGUIENTE SCRIPT DEBE SER POSICIONADO EN LA PARTE FINAL DEL BODY DEL SITIO WEB, MODIFICAR DONDE DICE "CHAT-ICON" DEPENDIENDO DE LA UBICACIÓN DE DONDE SE GUARDE LA IMAGEN
+
+
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger intent="WELCOME" chat-title="CorpoBot🦋🍃" agent-id="574a51ab-dc00-4239-9812-e4569221b103"
+        chat-icon="img/icono_36.png" language-code="es"></df-messenger>
+
+
+
+
+
+//EL SIGUIENTE STYLE SE DEBE POSICIONAR EN EL <HEAD>
+
+
+<style>
+        df-messenger {
+            --df-messenger-button-titlebar-color: #00a025;
+            --df-messenger-chat-background-color: #fafafa;
+            --df-messenger-user-message:#00a02546;
+        }
+</style>
